@@ -2,7 +2,7 @@
 <resources>
 
     <string name="app_name">HelloWorld</string>
-    <string name="hello_world">Hello Droid!</string>
+    <string name="hello_world">Hello Haaroon!</string>
     <string name="action_settings">Settings</string>
 
 </resources>
