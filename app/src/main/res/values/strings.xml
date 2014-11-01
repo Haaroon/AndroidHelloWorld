@@ -2,7 +2,7 @@
 <resources>
 
     <string name="app_name">HelloWorld</string>
-    <string name="hello_world">Hello Haaroon v2!</string>
+    <string name="hello_world">Hello Haaroon v3!</string>
     <string name="action_settings">Settings</string>
 
 </resources>
