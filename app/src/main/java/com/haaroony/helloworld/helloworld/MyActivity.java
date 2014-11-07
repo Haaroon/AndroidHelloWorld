@@ -4,14 +4,31 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
+import android.widget.TextView;
 
-
+//main activity is main class
 public class MyActivity extends Activity {
 
+    //button sets main
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_my);
+
+        final TextView firstTextView = (TextView) findViewById(R.id.textView);
+
+        Button firstButton = (Button) findViewById(R.id.firstbutton);
+
+        firstButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                firstTextView.setText("You Clicked");
+
+            }
+        });
     }
 
 
